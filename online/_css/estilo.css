@@ -1,0 +1,109 @@
+
+body  {  background-color:#778899	;
+
+}
+p {  text-align: justify;
+     text-indent: 50px;
+}
+
+div#interface{
+
+	width: 800px;
+	background-color: #5F9EA0	;
+	margin: -20px auto 10px auto;
+   box-shadow: 0px 0px 15px black;
+   padding: 10px 10px 10px 10px;
+}
+
+/*   formtação em imagens  */
+
+header#cabecalho img#icone{
+
+    position: relative;
+	/*top: 50px;*/
+	left: 135px
+}
+
+nav#menu{
+	display: block;
+}
+
+figure.foto-legenda{
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 1px 1px 4px black;
+	display: inline-block;
+}
+
+figure.foto-legenda img {
+  width:  100%;
+  height: 100%; 
+}
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+figure.foto-legenda:hover figcaption {
+ opacity: 1;
+ transition: opacity 1s;
+}
+
+nav#menu ul {
+          list-style: none;
+          text-transform: uppercase;
+          position: absolute;
+          top: -20px;
+          left:720px;
+         }
+
+nav#menu li {
+display:inline-block; 
+background-color:#B0C4DE ;
+padding: 10px;
+margin: 2px;
+transition-duration:  1s;
+}
+
+
+nav#menu li:hover {
+	background-color: #606060;
+    opacity: 5;
+    transition: opacity 5s;
+
+}
+
+
+nav#menu h1{
+
+	display:none;
+}
+
+nav#menu a {
+
+	color: black;
+	text-decoration: none;
+}
+
+/* passando o mouse por cima e deixando branco */
+
+nav#menu a:hover{
+	color: white;
+	/*agora sublinhado */
+	text-decoration: underline;
+}
+
+nav#menu a {
+
+	color: black;
+	text-decoration: none;
+}
+
